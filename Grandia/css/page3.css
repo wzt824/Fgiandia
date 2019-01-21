@@ -1,0 +1,41 @@
+.line1 {
+  overflow: hidden; }
+  .line1 .leftBox {
+    width: 65%;
+    float: left;
+    margin: 10px 0; }
+    .line1 .leftBox .left {
+      margin: 20px;
+      background: #fff; }
+  .line1 .rightBox {
+    width: 35%;
+    float: left;
+    margin: 10px 0; }
+    .line1 .rightBox .right {
+      margin: 20px;
+      background: #fff; }
+  .line1 .mychart1 {
+    min-height: 400px; }
+
+.line2, .line3 {
+  overflow: hidden; }
+  .line2 .leftBox, .line3 .leftBox {
+    width: 50%;
+    float: left;
+    margin: 10px 0; }
+    .line2 .leftBox .left, .line3 .leftBox .left {
+      margin: 20px;
+      background: #fff; }
+  .line2 .rightBox, .line3 .rightBox {
+    width: 50%;
+    float: left;
+    margin: 10px 0; }
+    .line2 .rightBox .right, .line3 .rightBox .right {
+      margin: 20px;
+      background: #fff; }
+  .line2 .mychart2, .line3 .mychart2 {
+    min-height: 400px; }
+
+@media screen and (max-width: 1080px) {
+  section .main .line1 .leftBox, section .main .line1 .rightBox, section .main .line2 .leftBox, section .main .line2 .rightBox, section .main .line3 .leftBox, section .main .line3 .rightBox {
+    width: 100%; } }

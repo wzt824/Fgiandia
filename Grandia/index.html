@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/iconfont.css">
+<link rel="stylesheet" href="css/index.css">
+<title>Grandia</title>
+</head>
+<body>
+    <!-- header -->
+<header>
+<nav>
+    <div class="left">
+        <a class="logina" href="index.html">
+            <img src="img/logo.png" alt="">
+        </a>
+        <span class="feilei">
+            <i class="iconfont icon-icon-"></i>
+        </span>
+    </div>
+    <form action="#">
+        <div class="divform">
+            <input type="text" placeholder="Search">
+            <i class="iconfont icon-fangdajing"></i>
+        </div>
+    </form>
+    <a class="logina2" href="index.html">
+        <img src="img/logo.png" alt="">
+    </a>
+    <div class="right">
+        <a  class="faceBox bases" href="javascript:;"><img src="img/face.jpg" alt=""></a>
+        <a class="bases" href="javascript:;"><i class="iconfont icon-gengduo"></i></a>
+        <a class="bases" href="javascript:;"><i class="iconfont icon-tubiao01"></i></a>
+        <a class="mores" href="javascript:;"><i class="iconfont icon-ai-module"></i></a>
+        <a class="bases" href="javascript:;">
+            <i class="iconfont icon-xiaoxi"></i>
+            <span>5</span>
+        </a>
+    </div>
+</nav>
+</header>
+<!-- section -->
+<section>
+    <div class="asideBox">
+        <aside id="aside">
+            <div class="asideFace">
+                <img src="img/face.jpg" alt="">
+            </div>
+            <a href="visualPage.html" class="tag1">
+                <i class="iconfont icon-ziyuanldpi"></i>
+                <span class="text">visualPage</span>
+            </a>
+            <a href="page2.html" class="tag1">
+                <i class="iconfont icon-bag_icon"></i>
+                <span class="text">page2</span>
+            </a>
+            <a href="page3.html" class="tag1">
+                <i class="iconfont icon-qizi"></i>
+                <span class="text">page3</span>
+            </a>
+            <a href="page4.html" class="tag1">
+                <i class="iconfont icon-ditu"></i>
+                <span class="text">page4</span>
+            </a>
+            <a href="page5.html" class="tag1">
+                <i class="iconfont icon-tubiao01"></i>
+                <span class="text">page5</span>
+            </a>
+            <a href="page6.html" class="tag1">
+                <i class="iconfont icon-youjian"></i>
+                <span class="text">page6</span>
+            </a>
+            <a href="javascript:;" class="tag1">
+                <i class="iconfont icon-tubiao"></i>
+                <span class="text">backTop</span>
+            </a>
+            <a href="javascript:;" class="tag1">
+                <i class="iconfont icon-icon-"></i>
+                <span class="text">backTop</span>
+            </a>
+            <a href="javascript:;" class="tag1">
+                <i class="iconfont icon-ziyuanldpi"></i>
+                <span class="text">backTop</span>
+            </a>
+        </aside>
+    </div>
+    <div class="main">
+        <div class="topLine">
+            <div class="topSignWrap"><div class="topSign">
+                <div class="left">
+                    <p>914,001</p>
+                    <p>EMPLOYEES</p>
+                </div>
+                <div class="right"><i class="iconfont icon--qunliaoshezhi"></i></div>
+            </div></div>
+            <div class="topSignWrap"><div class="topSign">
+                <div class="left">
+                    <p>2100</p>
+                    <p>MESSAGES</p>
+                </div>
+                <div class="right"><i class="iconfont icon-youjian"></i></div>
+            </div></div>
+            <div class="topSignWrap"><div class="topSign">
+                <div class="left">
+                    <p>54876</p>
+                    <p>VISITORS</p>
+                </div>
+                <div class="right"><i class="iconfont icon-shu"></i></div>
+            </div></div>
+            <div class="topSignWrap"><div class="topSign">
+                <div class="left">
+                    <p>46.43%</p>
+                    <p>GROWTH RATE</p>
+                </div>
+                <div class="right"><i class="iconfont icon-fangkeshu"></i></div>
+            </div></div>
+        </div>
+        <div class="secLine2">
+            <div class="leftBox"><div class="left">
+                <h3 class="hTits">
+                    <span class="tit">Attendance Metrics</span>
+                    <span class="back"><i class="iconfont icon-fanhui"></i></span>
+                    <span class="more"><i class="iconfont icon-gengduo"></i></span>
+                </h3>
+                <div class="myChart" id="chart1"></div>
+            </div></div>
+            <div class="rightBox">
+                <div class="submoduleBox"><div class="submodule">
+                <h3 class="hTits">
+                    <span class="tit">Total Employees</span>
+                    <span class="back"><i class="iconfont icon-fanhui"></i></span>
+                    <span class="more"><i class="iconfont icon-gengduo"></i></span>
+                </h3>
+                <div class="myChart" id="chart2"></div>
+            </div></div>
+            <div class="submoduleBox"><div class="submodule">
+                <h3 class="hTits">
+                    <span class="tit">Open Positions</span>
+                    <span class="back"><i class="iconfont icon-fanhui"></i></span>
+                    <span class="more"><i class="iconfont icon-gengduo"></i></span>
+                </h3>
+                <div class="myChart" id="chart3"></div>
+            </div></div>
+        </div>
+    </div>
+    <div class="secLine3">
+        <div class="leftBox">
+            <div class="submoduleBox"><div class="submodule">
+                <h3 class="hTits">
+                    <span class="tit">Key Metrics</span>
+                    <span class="back"><i class="iconfont icon-fanhui"></i></span>
+                    <span class="more"><i class="iconfont icon-gengduo"></i></span>
+                </h3>
+                <div class="myChart" id="chart4"></div>
+            </div></div>
+            <div class="submoduleBox"><div class="submodule">
+                <h3 class="hTits">
+                    <span class="tit">Employee Churn</span>
+                    <span class="back"><i class="iconfont icon-fanhui"></i></span>
+                    <span class="more"><i class="iconfont icon-gengduo"></i></span>
+                </h3>
+                <div class="myChart" id="chart5"></div>
+            </div></div>
+        </div>
+        <div class="rightBox"><div class="right">
+            <h3 class="hTits">
+                <span class="tit">Yellow Card Issued</span>
+                <span class="back"><i class="iconfont icon-fanhui"></i></span>
+                <span class="more"><i class="iconfont icon-gengduo"></i></span>
+            </h3>
+            <div class="myChart">
+                <ul>
+                    <li><span class="row1">EMPLOYEE</span><span class="row2">NAME</span><span class="row3">REASON</span><span class="row4">DATE</span><span class="row5">STATUS</span><span class="row6">ACTIONS</span></li>
+                    <li><span class="row1">#85457894</span><span class="row2">Davie</span><span class="row3">iphone</span><span class="row4">Oct 25</span><span class="row5 srow5">Done</span><span class="row6 srow6"><i class="iconfont icon-shachu-xue"></i></span></li>
+                    <li><span class="row1">#8544</span><span class="row2">Davie</span><span class="row3">iphone</span><span class="row4">Oct 25</span><span class="row5 srow5">Done</span><span class="row6 srow6"><i class="iconfont icon-shachu-xue"></i></span></li>
+                    <li><span class="row1">#85457894</span><span class="row2">Davie</span><span class="row3">iphone</span><span class="row4">Oct 25</span><span class="row5 srow5">Done</span><span class="row6 srow6"><i class="iconfont icon-shachu-xue"></i></span></li>
+                    <li><span class="row1">#85457894</span><span class="row2">Dave</span><span class="row3">iphoe</span><span class="row4">Oct 25</span><span class="row5 srow5">Done</span><span class="row6 srow6"><i class="iconfont icon-shachu-xue"></i></span></li>
+                    <li><span class="row1">#85457894</span><span class="row2">Davie</span><span class="row3">iphone</span><span class="row4">Oct 22</span><span class="row5 srow5">Done</span><span class="row6 srow6"><i class="iconfont icon-shachu-xue"></i></span></li>
+                </ul>
+            </div>
+        </div></div>
+    </div>
+</div>
+</section>
+</body>
+</html>
+<script src="js/echarts.min.js"></script>
+<script>
+    var getArr=(count,min,max)=>{//随机数组
+            var getValue = (min,max)=>{
+                return parseInt(Math.random() * (max - min) + min);
+            }
+            let arr = [];
+            for(let i=0;i<count;i++){
+                arr.push(getValue(min,max));
+            }
+            return arr;
+        }
+    var chart =()=>{
+    // chart1
+    // var chart1 = ()=>{
+        let myChart1 = echarts.init(document.getElementById('chart1'));
+        let arr1=[
+            [120, 332, 201, 434, 290, 330, 420,234,520],
+            [220, 532, 976, 434, 120, 120, 1020,976,334],
+            [320, 332, 520, 134, 290, 330, 520,234,334],
+            [420, 520, 201, 234, 990, 976, 420,234,976],
+            [520, 532, 201, 834, 420, 120, 1020,420,334],
+            [120, 332, 976, 520, 520, 330, 976,234,334],
+            [420, 632, 520, 434, 290, 520, 120,520,420],
+            [976, 332, 701, 634, 520, 330, 1020,234,334],
+            [220, 232, 201, 434, 420, 976, 976,234,334],
+            [120, 732, 901, 434, 290, 330, 120,520,334]
+        ];
+        let k=0;
+        let option1 = {
+            xAxis: {
+                type: 'category',
+                axisLine:{
+                    show:false
+                },
+                data: ['1x', '2x', '3x', '4x', '5x', '6x', '7x','8x','9x']
+            },
+            yAxis: {
+                type: 'value',
+                splitLine:false,
+                axisLabel:{
+                    show:false
+                },
+                axisLine:{
+                    show:false
+                }
+            },
+            series: [{
+                data: [],
+                type: 'line',
+                itemStyle:{
+                    borderColor:'rgb(100,92,212)',
+                    borderWidth:2,
+                    shadowBlur:5,
+                    shadowColor:'rgba(100,92,212,.1)'
+                },
+                lineStyle:{
+                    color:{
+                        type: 'linear',
+                        x: 0,
+                        y: 1,
+                        x2: 1,
+                        y2: 1,
+                        colorStops: [{
+                            offset: 0, color: 'rgb(246,67,168)' // 0% 处的颜色
+                        }, {
+                            offset: 1, color: 'rgb(100,92,212)' // 100% 处的颜色
+                        }],
+                        globalCoord: false // 缺省为 false
+                    },
+                    shadowColor:'rgb(100,92,212)',
+                    shadowOffsetY:0,
+                    shadowBlur:2
+                }
+            }]
+        };
+        setInterval(function(){
+            if(k>arr1.length-1){
+                k=0;
+            }
+            option1.series[0].data=arr1[k];
+            k++;
+            myChart1.setOption(option1);
+        },1000)
+    // }
+    //chart2
+    // var chart2 =()=>{
+        let myChart2 = echarts.init(document.getElementById('chart2'));
+        
+        let option2 = {
+        series : [
+            {
+                name: 'Les Miserables',
+                type: 'graph',
+                
+			animationDuration: 3000,
+			animationEasingUpdate: 'quinticInOut',
+                data:[{
+                    name: "A",
+					x: 100,
+					draggable: "true",
+					value: 100,
+					itemStyle: {
+							color: '#f742aa'
+					}
+                },{
+                    name: "B",
+					value: 200,
+					x: 200,
+					draggable: "true",
+					itemStyle: {
+							color: '#635bd6'
+					}
+                },{
+                    x: 300,
+					name: "C",
+					draggable: "true",
+					value: 1,
+					itemStyle: {
+							color: '#f742aa'
+					}
+                },{
+                    x: 300,
+					y: 300,
+					name: "D",
+					symbolSize: 20,
+					draggable: "true",
+					value: 1,
+					itemStyle: {
+							color: '#958FEF'
+					}
+                },{
+                    x: 300,
+					y: 300,
+					name: "E",
+					symbolSize: 20,
+					draggable: "true",
+					value: 1,
+					itemStyle: {
+							color: '#635bd6'
+					}
+                },{
+                    x: 400,
+					name: "F",
+					draggable: "true",
+					value: 1,
+					itemStyle: {
+							color: '#958FEF'
+					}
+                },{
+                    x: 500,
+					name: "G",
+					draggable: "true",
+					value: 1,
+					itemStyle: {
+							color: '#635bd6'
+					}
+                },{
+                    x: 600,
+					name: "H",
+					draggable: "true",
+				    value: 1,
+					itemStyle: {
+							color: '#958FEF'
+					}
+                }],
+                layout: 'force',
+                roam: true,
+                force: {
+                    repulsion: 100,
+                    gravity:0.5,
+                },
+                draggable:true,
+                symbolSize:20,
+            }
+        ],
+        links: [{
+					"source": "a2",
+					"target": "a3"
+				}, {
+					"source": "a3",
+					"target": "BRAS"
+				}, {
+					"source": "BRAS",
+					"target": "a4"
+				}, {
+					"source": "BRAS",
+					"target": "BRAS1"
+				}, {
+					"source": "BRAS",
+					"target": "BRAS2"
+				}, {
+					"source": "a4",
+					"target": "OLT"
+				}, {
+					"source": "OLT",
+					"target": "p1"
+				}, ]
+    };
+
+		myChart2.setOption(option2);
+    // }
+// chart3
+    // var chart3 = ()=>{
+        let myChart3 = echarts.init(document.getElementById('chart3'));
+        let arr = [
+             [880, 870, 820, 850, 680, 810,800,840,850,890],
+             [880, 870, 820, 880, 810, 600,840,650,890,890],
+             [880, 870, 680, 810, 600, 840,850,890,850,890],
+             [880, 880, 810, 600, 840, 850,690,840,850,850],
+             [680, 810, 800, 840, 650, 890,800,840,650,870],
+             [810, 600, 840, 850, 690, 810,800,650,870,890],
+             [800, 840, 650, 850, 880, 810,850,670,850,820],
+             [840, 850, 620, 850, 880, 850,670,840,820,890],
+             [850, 670, 820, 850, 850, 870,800,820,850,690],
+             [880, 870, 620, 820, 870, 610,820,840,850,890],
+        ];
+        let kk=0;
+        let option3 = {
+            radar: {
+                shape: 'circle',
+                name: {
+                    textStyle: {
+                        color: '#666',
+                        backgroundColor: 'transparent',
+                        borderRadius: 3,
+                        padding: [3, 5]
+                }
+                },
+                silent:true,
+                axisLine:{
+                    lineStyle:{
+                        color: {
+                            type: 'radial',
+                            x: 0.5,
+                            y: 0.5,
+                            r: 0.5,
+                            colorStops: [{
+                                offset: 0, color: 'red' // 0% 处的颜色
+                            }, {
+                                offset: 1, color: 'blue' // 100% 处的颜色
+                            }],
+                            globalCoord: false // 缺省为 false
+                        }
+                    }
+                },
+                splitLine:{
+                    lineStyle:{
+                        color:'#aaa'
+                    }
+                },
+                splitArea:{
+                    show:true,
+                    areaStyle:{
+                        color: '#fff'
+                    }
+                },
+                indicator: [
+                { name: '0', max: 1000},
+                { name: '0.3', max: 1000},
+                { name: '0.6', max: 1000},
+                { name: '0.9', max: 1000},
+                { name: '1.2', max: 1000},
+                { name: '1.5', max: 1000},
+                { name: '1.8', max: 1000},
+                { name: '2.1', max: 1000},
+                { name: '2.4', max: 1000},
+                { name: '2.7', max: 1000}
+                ]
+            },
+            series: [{
+                type: 'radar',
+                areaStyle: {
+                    color:{
+                            type: 'radial',
+                            x: 0.5,
+                            y: 0.5,
+                            r: 0.5,
+                            colorStops: [{
+                                offset: 0, color: 'rgb(246,67,168)' // 0% 处的颜色
+                            }, {
+                                offset: 1, color: 'rgb(100,92,212)' // 100% 处的颜色
+                            }],
+                            globalCoord: false 
+                        }
+                },
+                lineStyle:{
+                    color:'rgb(100,92,212)'
+                },
+                itemStyle:{
+                    color:'rgb(246,67,168)'
+                },
+                data : [
+                    {
+                        value : []
+                    }
+                ]
+            }]
+        };
+        setInterval(function(){
+            option3.series[0].data[0].value=arr[kk];
+            kk++;
+            if(kk>=arr.length){
+                kk=0;
+            }
+             myChart3.setOption(option3);
+        },500)
+    // }
+
+    //chart4
+    // var chart4 =()=>{
+        let myChart4 = echarts.init(document.getElementById('chart4'));
+        
+        var data = getArr(6,200,400);
+        var yMax = 500;
+        var dataShadow = [];
+
+        for (var i = 0; i < data.length; i++) {
+            dataShadow.push(yMax);
+        }
+
+       let option4 = {
+            yAxis: {
+                show:false,
+                data: []
+            },
+            xAxis: {
+                show:false
+            },
+            dataZoom: [
+                {
+                    type: 'inside'
+                }
+            ],
+            series: [
+                { // For shadow
+                    type: 'bar',
+                    barWidth:8,
+                    itemStyle: {
+                        normal: {color: 'rgba(0,0,0,0.05)'}
+                    },
+                    barGap:'-100%',
+                    barCategoryGap:'40%',
+                    data: dataShadow,
+                    animation: true
+                },
+                {
+                    type: 'bar',
+                    barWidth:8,
+                    itemStyle:{
+                        barBorderRadius:10,
+                        color: function (params){
+                                var colorList = ['#ff4844','#9ac3e5','#66ac52','#ffc032','#549bd3','#f47e39'];
+                                return colorList[params.dataIndex];
+                            },
+                    },
+                    data: []
+                }
+            ]
+        };
+
+
+        setInterval(function(){
+            option4.series[1].data=getArr(6,200,400);
+         myChart4.setOption(option4);
+        },1000)
+    // }
+    //chart5
+    // var chart5 =()=>{
+        let myChart5 = echarts.init(document.getElementById('chart5'));
+        // var getArr=(count,min,max)=>{//随机数组
+        //     var getValue = (min,max)=>{
+        //          return parseInt(Math.random() * (max - min) + min);
+        //     }
+        //     let arr = [];
+        //     for(let i=0;i<count;i++){
+        //         arr.push(getValue(min,max));
+        //     }
+        //     return arr;
+        // }
+        let option5 = {
+            xAxis: [
+                {
+                    type: 'value',
+                    min: 0,
+                    max: 180,
+                    splitLine: {
+                        show: false
+                    },
+                    axisLine: {
+                        show: false
+                    }
+                }
+            ],
+            yAxis: [
+                {
+                    type: 'category',
+                    axisLine: {
+                        show: false
+                    },
+                    data: [1,2,3,4,5,6,7,8,9,10,11,12]
+                },
+                {
+                    type: 'category',
+                    axisLine: {
+                        show: false
+                    },
+                    show: false
+                }
+            ],
+            series: [
+                {
+                    type: 'bar',
+                    itemStyle: {
+                        color: 'rgb(100,92,212)'
+                    },
+                    data: []
+                },
+                {
+                    type: 'line',
+                    lineStyle: {
+                        color: 'rgb(246,67,168)'
+                    },
+                    data: []
+                }
+            ]
+        };
+        setInterval(function(){
+            option5.series[0].data=getArr(12,50,180);
+            option5.series[1].data=getArr(12,50,180);
+            myChart5.setOption(option5);
+        },2000)
+        window.onresize=()=>{
+            myChart1.resize();
+            myChart2.resize();
+            myChart3.resize();
+            myChart4.resize();
+            myChart5.resize();
+        }
+    // }
+    }
+    window.onload = ()=>{
+        // chart1();
+        // chart2();
+        // chart3();
+        // chart4();
+        // chart5();
+        chart();
+    }
+   
+</script>
+<script>
+    let STATUS = false;
+    var asidefun= ()=>{
+        if(STATUS){
+            document.querySelector('#aside').style.width = '5%';
+            for (let i = 0; i < document.querySelectorAll('#aside .tag1').length; i++) {
+                document.querySelectorAll('#aside .tag1')[i].style.height = '50px';
+                document.querySelectorAll('#aside .tag1 .text')[i].style.display = 'none';
+                document.querySelectorAll('#aside .tag1')[i].style.borderBottom=0;
+            }
+            STATUS =false;
+        }else{
+            document.querySelector('#aside').style.width = '15%';
+            for(let i=0;i< document.querySelectorAll('#aside .tag1').length;i++){
+                document.querySelectorAll('#aside .tag1')[i].style.height = '80px';
+                document.querySelectorAll('#aside .tag1 .text')[i].style.display = 'block';
+                document.querySelectorAll('#aside .tag1 ')[i].style.borderBottom = '1px solid #878787';
+            }
+            STATUS = true;
+        }
+    }
+    document.querySelector('.feilei').onmousedown = asidefun;
+</script>

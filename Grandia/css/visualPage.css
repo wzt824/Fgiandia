@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea, fieldset, aside {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑",Arial;
+  background: #100e24; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  height: 50px;
+  background: #130f26 url(../img/v-headerBg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top; }
+  header h1 {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #08aded;
+    font-size: 22px; }
+
+section {
+  margin: 0 auto;
+  height: 639px; }
+  section .leftBox, section .centerBox, section .rightBox {
+    overflow: hidden;
+    height: 100%; }
+    section .leftBox .Con, section .centerBox .Con, section .rightBox .Con {
+      margin: 10px;
+      height: 100%; }
+      section .leftBox .Con .LconBox1, section .leftBox .Con .LconBox2, section .leftBox .Con .LconBox3, section .leftBox .Con .CconBox1, section .leftBox .Con .CconBox2, section .leftBox .Con .CconBox3, section .leftBox .Con .RconBox1, section .leftBox .Con .RconBox2, section .leftBox .Con .RconBox3, section .centerBox .Con .LconBox1, section .centerBox .Con .LconBox2, section .centerBox .Con .LconBox3, section .centerBox .Con .CconBox1, section .centerBox .Con .CconBox2, section .centerBox .Con .CconBox3, section .centerBox .Con .RconBox1, section .centerBox .Con .RconBox2, section .centerBox .Con .RconBox3, section .rightBox .Con .LconBox1, section .rightBox .Con .LconBox2, section .rightBox .Con .LconBox3, section .rightBox .Con .CconBox1, section .rightBox .Con .CconBox2, section .rightBox .Con .CconBox3, section .rightBox .Con .RconBox1, section .rightBox .Con .RconBox2, section .rightBox .Con .RconBox3 {
+        background: #1f174a;
+        border: 1px solid #09417a; }
+      section .leftBox .Con h2, section .centerBox .Con h2, section .rightBox .Con h2 {
+        height: 18px;
+        border: 1px solid #205287;
+        background: #0d1f5d;
+        font-size: 14px;
+        line-height: 18px;
+        color: #f7f7f7;
+        margin: 6px;
+        text-indent: 8px;
+        font-weight: 100; }
+  section .leftBox {
+    float: left;
+    width: 33%; }
+    section .leftBox .LconBox1 {
+      margin-bottom: 10px; }
+      section .leftBox .LconBox1 .chartBoxWrap {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around; }
+        section .leftBox .LconBox1 .chartBoxWrap .chart1 {
+          height: 70px;
+          width: 25%;
+          float: left; }
+    section .leftBox .LconBox2 .chartBoxWrap {
+      overflow: hidden; }
+      section .leftBox .LconBox2 .chartBoxWrap .chart2 {
+        height: 80px; }
+    section .leftBox .LconBox3 .chartBoxWrap {
+      overflow: hidden; }
+      section .leftBox .LconBox3 .chartBoxWrap .chart3 {
+        height: 326px; }
+  section .centerBox {
+    float: left;
+    width: 33%; }
+    section .centerBox .CconBox1 .chartBoxWrap {
+      overflow: hidden; }
+      section .centerBox .CconBox1 .chartBoxWrap .chart4 {
+        height: 140px; }
+    section .centerBox .CconBox2 .chartBoxWrap {
+      overflow: hidden; }
+      section .centerBox .CconBox2 .chartBoxWrap .chart5 {
+        height: 140px; }
+    section .centerBox .CconBox3 .chartBoxWrap {
+      overflow: hidden; }
+      section .centerBox .CconBox3 .chartBoxWrap .chart6 {
+        height: 246px; }
+  section .rightBox {
+    float: left;
+    width: 33%; }
+    section .rightBox .RconBox1 .chartBoxWrap {
+      overflow: hidden; }
+      section .rightBox .RconBox1 .chartBoxWrap .chart7 {
+        height: 154px; }
+    section .rightBox .RconBox2 {
+      margin-bottom: 10px; }
+      section .rightBox .RconBox2 .chartBoxWrap {
+        overflow: hidden; }
+        section .rightBox .RconBox2 .chartBoxWrap .chart8 {
+          height: 172px; }
+    section .rightBox .RconBox3 .chartBoxWrap {
+      overflow: hidden; }
+      section .rightBox .RconBox3 .chartBoxWrap .chart9 {
+        height: 172px; }

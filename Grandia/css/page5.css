@@ -1,0 +1,196 @@
+.line1 {
+  margin: 10px;
+  overflow: hidden; }
+  .line1 .left1Box {
+    float: left;
+    width: 25%; }
+    .line1 .left1Box .left1 {
+      margin: 10px; }
+      .line1 .left1Box .left1 .demo1 {
+        overflow: hidden;
+        margin: 20px;
+        background: linear-gradient(45deg, #635bd6, #f742aa); }
+        .line1 .left1Box .left1 .demo1 .left2Box, .line1 .left1Box .left1 .demo1 .right2Box {
+          float: left;
+          min-height: 130px;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .line1 .left1Box .left1 .demo1 .left2Box h4, .line1 .left1Box .left1 .demo1 .right2Box h4 {
+            font-size: 24px;
+            color: #fff; }
+          .line1 .left1Box .left1 .demo1 .left2Box p, .line1 .left1Box .left1 .demo1 .right2Box p {
+            color: #fff; }
+      .line1 .left1Box .left1 .demo2 {
+        min-height: 130px;
+        overflow: hidden;
+        margin: 20px;
+        background: linear-gradient(45deg, #45c0ba, #76c880); }
+        .line1 .left1Box .left1 .demo2 .left2Box, .line1 .left1Box .left1 .demo2 .right2Box {
+          float: left;
+          min-height: 130px;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .line1 .left1Box .left1 .demo2 .left2Box h4, .line1 .left1Box .left1 .demo2 .right2Box h4 {
+            font-size: 24px;
+            color: #fff; }
+          .line1 .left1Box .left1 .demo2 .left2Box p, .line1 .left1Box .left1 .demo2 .right2Box p {
+            color: #fff; }
+          .line1 .left1Box .left1 .demo2 .left2Box .chart1, .line1 .left1Box .left1 .demo2 .right2Box .chart1 {
+            width: 80%;
+            height: 100px; }
+      .line1 .left1Box .left1 .demo3 {
+        min-height: 170px;
+        padding: 10px;
+        overflow: hidden;
+        margin: 20px;
+        background: linear-gradient(45deg, #f16e3c, #e3c94b); }
+        .line1 .left1Box .left1 .demo3 h4 {
+          color: #fff;
+          font-size: 20px;
+          line-height: 50px;
+          height: 50px; }
+        .line1 .left1Box .left1 .demo3 ul li {
+          color: #fff;
+          height: 35px;
+          line-height: 35px;
+          font-size: 14px;
+          overflow: hidden; }
+          .line1 .left1Box .left1 .demo3 ul li span {
+            float: right; }
+          .line1 .left1Box .left1 .demo3 ul li i {
+            margin: 0 10px; }
+  .line1 .right1Box {
+    float: left;
+    width: 75%; }
+    .line1 .right1Box .right1 {
+      margin: 10px;
+      min-height: 500px;
+      background: #fff;
+      overflow: auto; }
+      .line1 .right1Box .right1 table {
+        width: 100%;
+        min-width: 500px;
+        padding: 20px; }
+        .line1 .right1Box .right1 table th {
+          text-align: left;
+          color: #212121;
+          font-weight: 100; }
+        .line1 .right1Box .right1 table tr {
+          height: 54px;
+          color: #aaa; }
+          .line1 .right1Box .right1 table tr:hover {
+            background: #eee;
+            border: 1px solid #eee; }
+          .line1 .right1Box .right1 table tr td {
+            border-bottom: 1px solid #aaa; }
+            .line1 .right1Box .right1 table tr td:nth-child(1) {
+              width: 55%; }
+            .line1 .right1Box .right1 table tr td:nth-child(2) {
+              width: 20%; }
+              .line1 .right1Box .right1 table tr td:nth-child(2) .bg {
+                width: 80%;
+                height: 6px;
+                background: #dddddd;
+                position: relative;
+                border-radius: 3px; }
+                .line1 .right1Box .right1 table tr td:nth-child(2) .bg .color {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  height: 6px;
+                  border-radius: 3px; }
+            .line1 .right1Box .right1 table tr td:nth-child(3) {
+              width: 25%; }
+          .line1 .right1Box .right1 table tr:nth-of-type(2) td:nth-child(2) .bg .color {
+            width: 51%;
+            background: pink; }
+          .line1 .right1Box .right1 table tr:nth-of-type(3) td:nth-child(2) .bg .color {
+            width: 35%;
+            background: #eb062c; }
+          .line1 .right1Box .right1 table tr:nth-of-type(4) td:nth-child(2) .bg .color {
+            width: 74%;
+            background: #0cf072; }
+          .line1 .right1Box .right1 table tr:nth-of-type(5) td:nth-child(2) .bg .color {
+            width: 23%;
+            background: #cc05ab; }
+          .line1 .right1Box .right1 table tr:nth-of-type(6) td:nth-child(2) .bg .color {
+            width: 85%;
+            background: #7bbce7; }
+          .line1 .right1Box .right1 table tr:nth-of-type(7) td:nth-child(2) .bg .color {
+            width: 46%;
+            background: #e5e917; }
+
+.line2 {
+  margin: 10px;
+  overflow: hidden; }
+  .line2 .items1Box, .line2 .items2Box {
+    width: 25%;
+    float: left; }
+  .line2 .items3Box {
+    width: 50%;
+    float: left; }
+  .line2 .items {
+    margin: 10px;
+    background: #fff; }
+    .line2 .items .mychart {
+      min-height: 400px;
+      margin: 10px; }
+
+.line3 {
+  margin: 10px;
+  overflow: hidden; }
+  .line3 .tableBox {
+    overflow: auto;
+    margin: 10px; }
+    .line3 .tableBox table {
+      width: 100%;
+      min-width: 800px;
+      background: #fff;
+      box-sizing: border-box; }
+      .line3 .tableBox table tr {
+        height: 54px;
+        color: #aaa; }
+        .line3 .tableBox table tr td {
+          border: 0;
+          border-top: 1px solid #aaa;
+          text-align: center; }
+          .line3 .tableBox table tr td .color1 {
+            background: #00ff00;
+            color: #fff;
+            border-radius: 16px;
+            padding: 2px 5px; }
+          .line3 .tableBox table tr td .color2 {
+            background: red;
+            color: #fff;
+            border-radius: 16px;
+            padding: 2px 5px; }
+        .line3 .tableBox table tr th:nth-of-type(1), .line3 .tableBox table tr th:nth-of-type(2), .line3 .tableBox table tr th:nth-of-type(3) {
+          width: 18%;
+          font-weight: 100; }
+        .line3 .tableBox table tr th:nth-of-type(4), .line3 .tableBox table tr th:nth-of-type(5), .line3 .tableBox table tr th:nth-of-type(6) {
+          width: 16%;
+          font-weight: 100; }
+
+@media screen and (max-width: 1080px) {
+  section .main .line1 .left1Box {
+    width: 40%; }
+  section .main .line1 .right1Box {
+    width: 60%; }
+  section .main .line2 .items1Box, section .main .line2 .items2Box {
+    width: 50%; }
+  section .main .line2 .items3Box {
+    width: 100%; } }
+
+@media screen and (max-width: 700px) {
+  section .main .line1 .left1Box {
+    width: 100%; }
+  section .main .line1 .right1Box {
+    width: 100%; }
+  section .main .line2 .items1Box, section .main .line2 .items2Box, section .main .line2 .items3Box {
+    width: 100%; } }

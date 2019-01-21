@@ -1,0 +1,107 @@
+.topLine {
+  overflow: hidden;
+  height: auto;
+  margin: 30px 10px 20px 10px;
+  padding: 0 20px; }
+  .topLine .topSignWrap {
+    float: left;
+    width: 25%;
+    margin: 10px 0; }
+    .topLine .topSignWrap .topSign {
+      margin: 0 10px;
+      overflow: hidden;
+      padding: 30px 0; }
+      .topLine .topSignWrap .topSign .left {
+        width: 50%;
+        float: left;
+        text-align: center;
+        color: #fff; }
+        .topLine .topSignWrap .topSign .left p:nth-of-type(1) {
+          font-size: 25px; }
+        .topLine .topSignWrap .topSign .left p:nth-of-type(2) {
+          font-size: 15px; }
+      .topLine .topSignWrap .topSign .right {
+        width: 50%;
+        float: right;
+        text-align: center; }
+        .topLine .topSignWrap .topSign .right i {
+          font-size: 50px;
+          color: #fff; }
+    .topLine .topSignWrap:nth-of-type(1) .topSign {
+      background: linear-gradient(45deg, #635bd6, #f742aa); }
+    .topLine .topSignWrap:nth-of-type(2) .topSign {
+      background: linear-gradient(45deg, #45c0ba, #76c880); }
+    .topLine .topSignWrap:nth-of-type(3) .topSign {
+      background: linear-gradient(45deg, #f16e3c, #e3c94b); }
+    .topLine .topSignWrap:nth-of-type(4) .topSign {
+      background: linear-gradient(45deg, #705be1, #52d8c6); }
+
+.line2 {
+  overflow: hidden;
+  margin: 10px; }
+  .line2 .leftBox {
+    width: 35%;
+    float: left; }
+    .line2 .leftBox .left {
+      background: #fff;
+      margin: 10px; }
+      .line2 .leftBox .left .mychart {
+        min-height: 360px; }
+  .line2 .rightBox {
+    width: 65%;
+    float: left; }
+    .line2 .rightBox .right {
+      background: #fff;
+      margin: 10px;
+      overflow: auto; }
+      .line2 .rightBox .right table {
+        width: 100%;
+        min-width: 500px;
+        background: #fff;
+        box-sizing: border-box; }
+        .line2 .rightBox .right table tr {
+          height: 54px;
+          color: #666666; }
+          .line2 .rightBox .right table tr td {
+            border: 0;
+            border-top: 1px solid #aaa;
+            text-align: center; }
+            .line2 .rightBox .right table tr td span {
+              color: #fff;
+              border-radius: 16px;
+              padding: 2px 5px; }
+            .line2 .rightBox .right table tr td .color1 {
+              color: #00ff00; }
+            .line2 .rightBox .right table tr td .color2 {
+              color: red; }
+            .line2 .rightBox .right table tr td .status1 {
+              background: #645cd4; }
+            .line2 .rightBox .right table tr td .status2 {
+              background: #767676; }
+            .line2 .rightBox .right table tr td .status3 {
+              background: #f63315; }
+          .line2 .rightBox .right table tr th:nth-of-type(1), .line2 .rightBox .right table tr th:nth-of-type(2), .line2 .rightBox .right table tr th:nth-of-type(3) {
+            width: 18%;
+            font-weight: 100; }
+          .line2 .rightBox .right table tr th:nth-of-type(4), .line2 .rightBox .right table tr th:nth-of-type(5), .line2 .rightBox .right table tr th:nth-of-type(6) {
+            width: 16%;
+            font-weight: 100; }
+
+.line3 {
+  overflow: hidden; }
+  .line3 .line3 {
+    margin: 20px;
+    overflow: hidden;
+    background: #fff; }
+    .line3 .line3 .mychart {
+      min-height: 400px; }
+
+@media screen and (max-width: 1080px) {
+  section .main .topLine .topSignWrap {
+    width: 50%; }
+  section .main .line2 .leftBox, section .main .line2 .rightBox {
+    width: 100%; } }
+
+@media screen and (max-width: 700px) {
+  section .main .topLine .topSignWrap {
+    width: 100%; } }

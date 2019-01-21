@@ -1,0 +1,331 @@
+@charset "UTF-8";
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea, fieldset, aside {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑",Arial; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+nav {
+  background: #27242a;
+  min-height: 66px;
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  padding: 0 15px 0 0; }
+  nav .left {
+    float: left;
+    min-height: 66px; }
+    nav .left .logina {
+      display: block;
+      float: left;
+      min-height: 66px;
+      margin-left: 15px; }
+      nav .left .logina img {
+        margin-top: 20px; }
+    nav .left .feilei {
+      float: left;
+      min-height: 66px;
+      line-height: 66px;
+      margin-left: 20px; }
+      nav .left .feilei i {
+        color: #fff;
+        font-size: 22px; }
+  nav form {
+    float: left;
+    min-height: 66px; }
+    nav form .divform {
+      margin-top: 12px;
+      margin-left: 20px;
+      position: relative; }
+      nav form .divform input {
+        width: 300px;
+        height: 36px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 0;
+        outline: none;
+        padding: 4px 15px;
+        border-radius: 30px;
+        color: #fff; }
+      nav form .divform i {
+        font-size: 22px;
+        color: #878787;
+        position: absolute;
+        right: 10px;
+        top: 10px; }
+  nav .logina2 {
+    display: none; }
+  nav .right {
+    float: right;
+    height: 100%; }
+    nav .right a {
+      float: right;
+      min-height: 66px;
+      line-height: 66px;
+      margin: 0 10px;
+      position: relative; }
+      nav .right a i {
+        font-size: 22px;
+        color: #878787; }
+      nav .right a span {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: block;
+        border-radius: 50%;
+        background: #76c880;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #fff; }
+    nav .right .faceBox {
+      min-height: 66px; }
+      nav .right .faceBox img {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: block; }
+
+header {
+  min-height: 68px; }
+
+section {
+  overflow: hidden; }
+  section .asideBox {
+    float: left;
+    width: 5%;
+    min-height: 400px; }
+    section .asideBox aside {
+      background: #2f2d33;
+      width: 5%;
+      height: 100%;
+      position: fixed;
+      z-index: 100;
+      transition: width .5s; }
+      section .asideBox aside:hover {
+        width: 15%;
+        overflow-y: auto; }
+        section .asideBox aside:hover::-webkit-scrollbar {
+          width: 8px;
+          background: #525154;
+          border-radius: 10px;
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); }
+        section .asideBox aside:hover::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+          background: rgba(0, 0, 0, 0.2); }
+        section .asideBox aside:hover::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+          border-radius: 0;
+          background: rgba(255, 255, 255, 0.5); }
+        section .asideBox aside:hover .tag1 {
+          height: 80px;
+          border-bottom: 1px solid #878787; }
+          section .asideBox aside:hover .tag1 .text {
+            display: block; }
+      section .asideBox aside .tag1 {
+        height: 50px;
+        text-align: left;
+        text-indent: 20%;
+        line-height: 50px;
+        display: flex;
+        align-items: center; }
+        section .asideBox aside .tag1 i {
+          color: #eeeeee;
+          font-size: 25px; }
+        section .asideBox aside .tag1 .text {
+          color: #eeeeee;
+          display: none;
+          font-size: 16px;
+          line-height: 25px; }
+      section .asideBox aside .asideFace {
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        section .asideBox aside .asideFace img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%; }
+  section .main {
+    height: auto;
+    float: left;
+    overflow: hidden;
+    width: 95%;
+    background: #eeeeee; }
+    section .main .topLine {
+      overflow: hidden;
+      height: auto;
+      margin: 30px 10px 20px 10px;
+      padding: 0 20px; }
+      section .main .topLine .topSignWrap {
+        float: left;
+        width: 25%;
+        margin: 10px 0; }
+        section .main .topLine .topSignWrap .topSign {
+          margin: 0 10px;
+          overflow: hidden;
+          padding: 30px 0; }
+          section .main .topLine .topSignWrap .topSign .left {
+            width: 50%;
+            float: left;
+            text-align: center;
+            color: #fff; }
+            section .main .topLine .topSignWrap .topSign .left p:nth-of-type(1) {
+              font-size: 25px; }
+            section .main .topLine .topSignWrap .topSign .left p:nth-of-type(2) {
+              font-size: 15px; }
+          section .main .topLine .topSignWrap .topSign .right {
+            width: 50%;
+            float: right;
+            text-align: center; }
+            section .main .topLine .topSignWrap .topSign .right i {
+              font-size: 50px;
+              color: #fff; }
+        section .main .topLine .topSignWrap:nth-of-type(1) .topSign {
+          background: linear-gradient(45deg, #635bd6, #f742aa); }
+        section .main .topLine .topSignWrap:nth-of-type(2) .topSign {
+          background: linear-gradient(45deg, #45c0ba, #76c880); }
+        section .main .topLine .topSignWrap:nth-of-type(3) .topSign {
+          background: linear-gradient(45deg, #f16e3c, #e3c94b); }
+        section .main .topLine .topSignWrap:nth-of-type(4) .topSign {
+          background: linear-gradient(45deg, #705be1, #52d8c6); }
+    section .main .secLine2, section .main .secLine3 {
+      overflow: hidden; }
+      section .main .secLine2 .hTits, section .main .secLine3 .hTits {
+        padding: 10px 10px;
+        overflow: hidden; }
+        section .main .secLine2 .hTits .tit, section .main .secLine3 .hTits .tit {
+          font-size: 16px;
+          float: left;
+          color: #212121; }
+        section .main .secLine2 .hTits .more, section .main .secLine3 .hTits .more {
+          font-size: 20px;
+          float: right;
+          color: #878787; }
+        section .main .secLine2 .hTits .back, section .main .secLine3 .hTits .back {
+          font-size: 20px;
+          float: right;
+          color: #878787;
+          margin: 0 10px; }
+      section .main .secLine2 .myChart, section .main .secLine3 .myChart {
+        margin: 0 10px;
+        min-height: 360px; }
+      section .main .secLine2 .leftBox, section .main .secLine3 .leftBox {
+        width: 50%;
+        float: left;
+        overflow: hidden; }
+        section .main .secLine2 .leftBox .submoduleBox, section .main .secLine3 .leftBox .submoduleBox {
+          width: 50%;
+          float: left; }
+          section .main .secLine2 .leftBox .submoduleBox .submodule, section .main .secLine3 .leftBox .submoduleBox .submodule {
+            background: #fff;
+            min-height: 330px;
+            margin: 10px 10px; }
+        section .main .secLine2 .leftBox .left, section .main .secLine3 .leftBox .left {
+          margin: 10px 10px;
+          background: #fff;
+          min-height: 300px; }
+      section .main .secLine2 .rightBox, section .main .secLine3 .rightBox {
+        width: 50%;
+        float: left;
+        overflow: hidden; }
+        section .main .secLine2 .rightBox .submoduleBox, section .main .secLine3 .rightBox .submoduleBox {
+          width: 50%;
+          float: left; }
+          section .main .secLine2 .rightBox .submoduleBox .submodule, section .main .secLine3 .rightBox .submoduleBox .submodule {
+            margin: 10px 10px;
+            background: #fff;
+            min-height: 300px; }
+        section .main .secLine2 .rightBox .right, section .main .secLine3 .rightBox .right {
+          margin: 10px 10px;
+          background: #fff;
+          min-height: 300px; }
+          section .main .secLine2 .rightBox .right ul li, section .main .secLine3 .rightBox .right ul li {
+            height: 72px;
+            border-bottom: 1px solid #dedede;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #aaaaaa; }
+            section .main .secLine2 .rightBox .right ul li .row1, section .main .secLine3 .rightBox .right ul li .row1 {
+              width: 16%; }
+            section .main .secLine2 .rightBox .right ul li .row2, section .main .secLine3 .rightBox .right ul li .row2 {
+              width: 16%; }
+            section .main .secLine2 .rightBox .right ul li .row3, section .main .secLine3 .rightBox .right ul li .row3 {
+              width: 16%; }
+            section .main .secLine2 .rightBox .right ul li .row4, section .main .secLine3 .rightBox .right ul li .row4 {
+              width: 16%; }
+            section .main .secLine2 .rightBox .right ul li .row5, section .main .secLine3 .rightBox .right ul li .row5 {
+              width: 16%; }
+            section .main .secLine2 .rightBox .right ul li .row6, section .main .secLine3 .rightBox .right ul li .row6 {
+              width: 16%; }
+            section .main .secLine2 .rightBox .right ul li .srow6, section .main .secLine3 .rightBox .right ul li .srow6 {
+              color: #333333;
+              cursor: pointer; }
+            section .main .secLine2 .rightBox .right ul li .srow5, section .main .secLine3 .rightBox .right ul li .srow5 {
+              border-radius: 30px;
+              background: #76c880;
+              color: #ffffff;
+              text-align: center; }
+
+@media screen and (max-width: 1080px) {
+  nav {
+    display: flex;
+    justify-content: space-between; }
+    nav .left .logina {
+      display: none; }
+    nav form {
+      opacity: 1;
+      transition: all 1s; }
+    nav .logina2 {
+      display: block;
+      opacity: 0; }
+      nav .logina2 img {
+        margin-top: 20px; }
+    nav .right .bases {
+      display: none; }
+  section .asideBox aside .tag1 {
+    text-indent: 10%;
+    flex-direction: column; }
+    section .asideBox aside .tag1 .text {
+      font-size: 14px; }
+  section .main .topLine .topSignWrap {
+    width: 50%; }
+  section .main .secLine2 .leftBox, section .main .secLine3 .leftBox {
+    width: 100%; }
+  section .main .secLine2 .rightBox, section .main .secLine3 .rightBox {
+    width: 100%; } }
+
+@media screen and (max-width: 700px) {
+  nav {
+    display: flex;
+    justify-content: space-between; }
+    nav .left .logina {
+      display: none; }
+    nav form {
+      display: none; }
+    nav .logina2 {
+      opacity: 1;
+      transition: all 1s; }
+      nav .logina2 img {
+        margin-top: 20px; }
+    nav .right .bases {
+      display: none; }
+  section .main .topLine .topSignWrap {
+    width: 100%; }
+  section .main .secLine2 .leftBox, section .main .secLine3 .leftBox {
+    width: 100%; }
+    section .main .secLine2 .leftBox .submoduleBox, section .main .secLine3 .leftBox .submoduleBox {
+      width: 100%; }
+  section .main .secLine2 .rightBox, section .main .secLine3 .rightBox {
+    width: 100%; }
+    section .main .secLine2 .rightBox .submoduleBox, section .main .secLine3 .rightBox .submoduleBox {
+      width: 100%; } }

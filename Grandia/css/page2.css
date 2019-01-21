@@ -1,0 +1,388 @@
+@charset "UTF-8";
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea, fieldset, aside {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑",Arial; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+nav {
+  background: #27242a;
+  min-height: 66px;
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  padding: 0 15px 0 0; }
+  nav .left {
+    float: left;
+    min-height: 66px; }
+    nav .left .logina {
+      display: block;
+      float: left;
+      min-height: 66px;
+      margin-left: 15px; }
+      nav .left .logina img {
+        margin-top: 20px; }
+    nav .left .feilei {
+      float: left;
+      min-height: 66px;
+      line-height: 66px;
+      margin-left: 20px; }
+      nav .left .feilei i {
+        color: #fff;
+        font-size: 22px; }
+  nav form {
+    float: left;
+    min-height: 66px; }
+    nav form .divform {
+      margin-top: 12px;
+      margin-left: 20px;
+      position: relative; }
+      nav form .divform input {
+        width: 300px;
+        height: 36px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 0;
+        outline: none;
+        padding: 4px 15px;
+        border-radius: 30px;
+        color: #fff; }
+      nav form .divform i {
+        font-size: 22px;
+        color: #878787;
+        position: absolute;
+        right: 10px;
+        top: 10px; }
+  nav .logina2 {
+    display: none; }
+  nav .right {
+    float: right;
+    height: 100%; }
+    nav .right a {
+      float: right;
+      min-height: 66px;
+      line-height: 66px;
+      margin: 0 10px;
+      position: relative; }
+      nav .right a i {
+        font-size: 22px;
+        color: #878787; }
+      nav .right a span {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: block;
+        border-radius: 50%;
+        background: #76c880;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #fff; }
+    nav .right .faceBox {
+      min-height: 66px; }
+      nav .right .faceBox img {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: block; }
+
+header {
+  min-height: 68px; }
+
+section {
+  overflow: hidden; }
+  section .asideBox {
+    float: left;
+    width: 5%;
+    min-height: 400px; }
+    section .asideBox aside {
+      background: #2f2d33;
+      width: 5%;
+      height: 100%;
+      position: fixed;
+      z-index: 100;
+      transition: width .5s; }
+      section .asideBox aside:hover {
+        width: 15%;
+        overflow-y: auto; }
+        section .asideBox aside:hover::-webkit-scrollbar {
+          width: 8px;
+          background: #525154;
+          border-radius: 10px;
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); }
+        section .asideBox aside:hover::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+          background: rgba(0, 0, 0, 0.2); }
+        section .asideBox aside:hover::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+          border-radius: 0;
+          background: rgba(255, 255, 255, 0.5); }
+        section .asideBox aside:hover .tag1 {
+          height: 80px;
+          border-bottom: 1px solid #878787; }
+          section .asideBox aside:hover .tag1 .text {
+            display: block; }
+      section .asideBox aside .tag1 {
+        height: 50px;
+        text-align: left;
+        text-indent: 20%;
+        line-height: 50px;
+        display: flex;
+        align-items: center; }
+        section .asideBox aside .tag1 i {
+          color: #eeeeee;
+          font-size: 25px; }
+        section .asideBox aside .tag1 .text {
+          color: #eeeeee;
+          display: none;
+          font-size: 16px;
+          line-height: 25px; }
+      section .asideBox aside .asideFace {
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        section .asideBox aside .asideFace img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%; }
+  section .main {
+    height: auto;
+    float: left;
+    overflow: hidden;
+    width: 95%;
+    background: #eeeeee; }
+    section .main .hTits {
+      padding: 10px 10px;
+      overflow: hidden; }
+      section .main .hTits .tit {
+        font-size: 16px;
+        float: left;
+        color: #212121; }
+      section .main .hTits .more {
+        font-size: 20px;
+        float: right;
+        color: #878787; }
+      section .main .hTits .back {
+        font-size: 20px;
+        float: right;
+        color: #878787;
+        margin: 0 10px; }
+    section .main .line1 {
+      margin: 20px 20px;
+      overflow: hidden; }
+      section .main .line1 .leftBox {
+        width: 25%;
+        float: left;
+        min-height: 500px; }
+        section .main .line1 .leftBox .demo1 {
+          background: #fff;
+          margin: 10px 10px;
+          overflow: hidden; }
+          section .main .line1 .leftBox .demo1:nth-of-type(1) {
+            background: linear-gradient(45deg, #635bd6, #f742aa); }
+          section .main .line1 .leftBox .demo1:nth-of-type(2) {
+            background: linear-gradient(45deg, #705be1, #52d8c6); }
+          section .main .line1 .leftBox .demo1 .demo1L {
+            width: 50%;
+            float: left;
+            min-height: 90px; }
+            section .main .line1 .leftBox .demo1 .demo1L p {
+              line-height: 45px;
+              text-align: center;
+              color: #fff; }
+              section .main .line1 .leftBox .demo1 .demo1L p:nth-of-type(1) {
+                font-size: 24px; }
+              section .main .line1 .leftBox .demo1 .demo1L p:nth-of-type(2) {
+                font-size: 14px; }
+          section .main .line1 .leftBox .demo1 .demo1R {
+            width: 50%;
+            float: left;
+            min-height: 90px; }
+            section .main .line1 .leftBox .demo1 .demo1R .chart {
+              width: 80%;
+              height: 80px;
+              margin: 10px auto 0; }
+        section .main .line1 .leftBox .demo3 {
+          margin: 10px 10px;
+          min-height: 300px;
+          background: #fff; }
+          section .main .line1 .leftBox .demo3 h4 {
+            font-size: 14px;
+            font-weight: 100;
+            padding: 20px 0;
+            text-align: center; }
+          section .main .line1 .leftBox .demo3 .picIcons {
+            text-align: center;
+            padding: 20px 0; }
+            section .main .line1 .leftBox .demo3 .picIcons i {
+              font-size: 37px;
+              color: #645cd4; }
+          section .main .line1 .leftBox .demo3 .bottom {
+            padding: 10px 10px;
+            overflow: hidden;
+            text-align: center; }
+            section .main .line1 .leftBox .demo3 .bottom .bLeft {
+              float: left;
+              width: 50%; }
+              section .main .line1 .leftBox .demo3 .bottom .bLeft p {
+                height: 30px;
+                line-height: 30px; }
+              section .main .line1 .leftBox .demo3 .bottom .bLeft p:nth-of-type(1) {
+                color: #878787; }
+            section .main .line1 .leftBox .demo3 .bottom .bRight {
+              float: right;
+              width: 50%; }
+              section .main .line1 .leftBox .demo3 .bottom .bRight p {
+                height: 30px;
+                line-height: 30px; }
+              section .main .line1 .leftBox .demo3 .bottom .bRight p:nth-of-type(1) {
+                color: #878787; }
+      section .main .line1 .conBox {
+        width: 40%;
+        float: left; }
+        section .main .line1 .conBox .con {
+          background: #fff;
+          min-height: 500px;
+          margin: 10px; }
+          section .main .line1 .conBox .con .mychart {
+            height: 420px;
+            width: 100%; }
+      section .main .line1 .rightBox {
+        width: 35%;
+        float: left; }
+        section .main .line1 .rightBox .right {
+          background: #fff;
+          min-height: 500px;
+          margin: 10px; }
+          section .main .line1 .rightBox .right .mychart {
+            height: 420px;
+            width: 100%; }
+    section .main .line2 {
+      margin: 20px 20px;
+      overflow: hidden; }
+      section .main .line2 .line2LeftBox, section .main .line2 .line2RightBox {
+        width: 50%;
+        float: left; }
+        section .main .line2 .line2LeftBox .line2Left, section .main .line2 .line2LeftBox .line2Right, section .main .line2 .line2RightBox .line2Left, section .main .line2 .line2RightBox .line2Right {
+          background: #fff;
+          margin: 20px 20px; }
+          section .main .line2 .line2LeftBox .line2Left .mychart2, section .main .line2 .line2LeftBox .line2Right .mychart2, section .main .line2 .line2RightBox .line2Left .mychart2, section .main .line2 .line2RightBox .line2Right .mychart2 {
+            min-height: 500px;
+            width: 100%; }
+    section .main .line3 {
+      margin: 20px 20px;
+      overflow: hidden; }
+      section .main .line3 .left, section .main .line3 .con, section .main .line3 .right {
+        background: #fff; }
+      section .main .line3 .leftBox {
+        width: 35%;
+        float: left; }
+        section .main .line3 .leftBox .left {
+          margin: 10px; }
+          section .main .line3 .leftBox .left .mychart3 {
+            min-height: 300px;
+            width: 100%; }
+      section .main .line3 .conBox {
+        width: 35%;
+        float: left; }
+        section .main .line3 .conBox .con {
+          margin: 10px;
+          min-height: 400px; }
+          section .main .line3 .conBox .con ul li {
+            height: 48px;
+            line-height: 48px;
+            border-bottom: 1px solid #eeeeee;
+            padding: 0 20px; }
+            section .main .line3 .conBox .con ul li .left {
+              float: left; }
+              section .main .line3 .conBox .con ul li .left span {
+                margin: 0 10px;
+                color: #525154; }
+            section .main .line3 .conBox .con ul li .right {
+              float: right;
+              color: #f742aa; }
+      section .main .line3 .rightBox {
+        width: 30%;
+        float: left; }
+        section .main .line3 .rightBox .right {
+          margin: 10px;
+          min-height: 100px; }
+          section .main .line3 .rightBox .right ul li {
+            height: 26px;
+            line-height: 26px;
+            font-size: 14px;
+            color: #878787;
+            text-indent: 30px; }
+
+@media screen and (max-width: 1080px) {
+  nav {
+    display: flex;
+    justify-content: space-between; }
+    nav .left .logina {
+      display: none; }
+    nav form {
+      opacity: 1;
+      transition: all 1s; }
+    nav .logina2 {
+      display: block;
+      opacity: 0; }
+      nav .logina2 img {
+        margin-top: 20px; }
+    nav .right .bases {
+      display: none; }
+  section .asideBox aside .tag1 {
+    text-indent: 10%;
+    flex-direction: column; }
+    section .asideBox aside .tag1 .text {
+      font-size: 14px; }
+  section .main .line1 .leftBox {
+    width: 40%; }
+  section .main .line1 .conBox {
+    width: 60%; }
+  section .main .line1 .rightBox {
+    width: 100%; }
+  section .main .line2 .line2LeftBox, section .main .line2 .line2RightBox {
+    width: 100%; }
+  section .main .line3 .leftBox, section .main .line3 .conBox {
+    width: 50%; }
+  section .main .line3 .rightBox {
+    width: 100%; } }
+
+@media screen and (max-width: 700px) {
+  nav {
+    display: flex;
+    justify-content: space-between; }
+    nav .left .logina {
+      display: none; }
+    nav form {
+      display: none; }
+    nav .logina2 {
+      opacity: 1;
+      transition: all 1s; }
+      nav .logina2 img {
+        margin-top: 20px; }
+    nav .right .bases {
+      display: none; }
+  section .main .line1 .leftBox {
+    width: 100%; }
+  section .main .line1 .conBox {
+    width: 100%; }
+  section .main .line1 .rightBox {
+    width: 100%; }
+  section .main .line2 .line2LeftBox, section .main .line2 .line2RightBox {
+    width: 100%; }
+  section .main .line3 .leftBox {
+    width: 100%; }
+  section .main .line3 .conBox {
+    width: 100%; }
+  section .main .line3 .rightBox {
+    width: 100%; } }

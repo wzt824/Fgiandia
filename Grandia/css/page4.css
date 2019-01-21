@@ -1,0 +1,136 @@
+.topLine {
+  overflow: hidden;
+  height: auto;
+  margin: 30px 10px 20px 10px;
+  padding: 0 20px; }
+  .topLine .topSignWrap {
+    float: left;
+    width: 25%;
+    margin: 10px 0; }
+    .topLine .topSignWrap .topSign {
+      margin: 0 10px;
+      overflow: hidden;
+      padding: 30px 0; }
+      .topLine .topSignWrap .topSign .left {
+        width: 50%;
+        float: left;
+        text-align: center;
+        color: #fff; }
+        .topLine .topSignWrap .topSign .left p:nth-of-type(1) {
+          font-size: 25px; }
+        .topLine .topSignWrap .topSign .left p:nth-of-type(2) {
+          font-size: 15px; }
+      .topLine .topSignWrap .topSign .right {
+        width: 50%;
+        float: right;
+        text-align: center; }
+        .topLine .topSignWrap .topSign .right i {
+          font-size: 50px;
+          color: #fff; }
+    .topLine .topSignWrap:nth-of-type(1) .topSign {
+      background: linear-gradient(45deg, #635bd6, #f742aa); }
+    .topLine .topSignWrap:nth-of-type(2) .topSign {
+      background: linear-gradient(45deg, #45c0ba, #76c880); }
+    .topLine .topSignWrap:nth-of-type(3) .topSign {
+      background: linear-gradient(45deg, #f16e3c, #e3c94b); }
+    .topLine .topSignWrap:nth-of-type(4) .topSign {
+      background: linear-gradient(45deg, #705be1, #52d8c6); }
+
+.line1 {
+  overflow: hidden;
+  margin: 10px; }
+  .line1 .leftBox {
+    width: 35%;
+    float: left; }
+    .line1 .leftBox .left {
+      margin: 10px; }
+      .line1 .leftBox .left .top {
+        overflow: hidden;
+        margin-bottom: 20px; }
+        .line1 .leftBox .left .top .left1, .line1 .leftBox .left .top .right1 {
+          width: 50%;
+          float: left;
+          min-height: 180px;
+          background: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .line1 .leftBox .left .top .left1 .mychart, .line1 .leftBox .left .top .right1 .mychart {
+            width: 80%;
+            min-height: 150px; }
+          .line1 .leftBox .left .top .left1 p, .line1 .leftBox .left .top .right1 p {
+            margin: 5px;
+            color: #878787; }
+          .line1 .leftBox .left .top .left1 h4, .line1 .leftBox .left .top .right1 h4 {
+            margin: 5px;
+            color: #333333;
+            font-size: 26px; }
+      .line1 .leftBox .left .bottom {
+        overflow: hidden;
+        background: linear-gradient(45deg, #f16e3c, #e3c94b); }
+        .line1 .leftBox .left .bottom .left1, .line1 .leftBox .left .bottom .right1 {
+          width: 50%;
+          float: left;
+          min-height: 220px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .line1 .leftBox .left .bottom .left1 .mychart, .line1 .leftBox .left .bottom .right1 .mychart {
+            width: 80%;
+            min-height: 150px; }
+          .line1 .leftBox .left .bottom .left1 p, .line1 .leftBox .left .bottom .right1 p {
+            margin: 5px;
+            color: #fff; }
+          .line1 .leftBox .left .bottom .left1 h4, .line1 .leftBox .left .bottom .right1 h4 {
+            margin: 5px;
+            color: #fff;
+            font-size: 26px; }
+  .line1 .rightBox {
+    width: 65%;
+    float: left; }
+    .line1 .rightBox .right {
+      margin: 10px;
+      min-height: 420px;
+      background: #fff; }
+      .line1 .rightBox .right .mychart {
+        min-height: 360px; }
+
+.line2 {
+  overflow: hidden;
+  margin: 10px; }
+  .line2 .leftBox, .line2 .rightBox {
+    width: 50%;
+    float: left; }
+    .line2 .leftBox .left, .line2 .leftBox .right, .line2 .rightBox .left, .line2 .rightBox .right {
+      margin: 10px;
+      background: #fff; }
+      .line2 .leftBox .left .mychart, .line2 .leftBox .right .mychart, .line2 .rightBox .left .mychart, .line2 .rightBox .right .mychart {
+        min-height: 300px;
+        margin: 10px; }
+      .line2 .leftBox .left .line2Con, .line2 .leftBox .right .line2Con, .line2 .rightBox .left .line2Con, .line2 .rightBox .right .line2Con {
+        min-height: 300px;
+        margin: 10px; }
+        .line2 .leftBox .left .line2Con table, .line2 .leftBox .right .line2Con table, .line2 .rightBox .left .line2Con table, .line2 .rightBox .right .line2Con table {
+          text-align: center;
+          vertical-align: center;
+          color: #868686; }
+          .line2 .leftBox .left .line2Con table tr, .line2 .leftBox .right .line2Con table tr, .line2 .rightBox .left .line2Con table tr, .line2 .rightBox .right .line2Con table tr {
+            height: 70px; }
+            .line2 .leftBox .left .line2Con table tr .tmychart, .line2 .leftBox .right .line2Con table tr .tmychart, .line2 .rightBox .left .line2Con table tr .tmychart, .line2 .rightBox .right .line2Con table tr .tmychart {
+              height: 70px;
+              width: 100px;
+              margin: 0 auto; }
+            .line2 .leftBox .left .line2Con table tr td:last-child, .line2 .leftBox .right .line2Con table tr td:last-child, .line2 .rightBox .left .line2Con table tr td:last-child, .line2 .rightBox .right .line2Con table tr td:last-child {
+              color: #f742aa; }
+
+@media screen and (max-width: 1080px) {
+  section .main .topLine .topSignWrap {
+    width: 50%; }
+  section .main .line1 .leftBox, section .main .line1 .rightBox, section .main .line2 .leftBox, section .main .line2 .rightBox {
+    width: 100%; } }
+
+@media screen and (max-width: 700px) {
+  section .main .topLine .topSignWrap {
+    width: 100%; } }
